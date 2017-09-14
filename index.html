@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quizzy Quiz</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" text="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+
+<div class="jumbotron">
+  <h1>Quizzy Quiz</h1>
+  <p id = "resume"><a class="btn btn-primary btn-lg" href="#" role="button">Start The Quiz!</a></p>
+</div>
+<div id = "container">
+<div id = "question1">What is the capital of California?</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios1" value="Sacramento">
+  Sacramento
+
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option2">
+   
+   Germany
+
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option3" >
+    
+	Pudding
+
+  </label>
+</div>
+
+<div id = "question2">What is the name of the state that has a city in it called San Francisco?</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option1">
+  Bootstrap
+
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+   
+   Germany
+
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios2" value="California" >
+    
+	California
+
+  </label>
+</div>
+
+<div id ="question3">Where is California?</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option1">
+  An island in the Atlantic Ocean
+
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios3" value="In the United States of America">
+   
+   In the United States of America
+
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" >
+    
+	Pudding
+<br>
+
+<input id = "button" type = "button" value = "submit" onClick = "check();">
+
+
+  </label>
+</div>
+
+
+<div id = "after_submit">
+<p id = "number_correct">score</p>
+<p id = "timer">2:00></p>
+</div>
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<script src = "assets/javascript/app.js"></script>
+</body>
+</html>
